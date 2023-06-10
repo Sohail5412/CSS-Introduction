@@ -1,0 +1,157 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Change the font family to Comic Sans */
+  margin: 20px;
+  color: #333;
+}
+
+/* Header styles */
+h1 {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Profile picture styles */
+.profile-pic {
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  filter: grayscale(100%) brightness(80%);
+}
+
+/* Content styles */
+h2 {
+  color: #777;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+  color: #333;
+}
+
+/* ID selector */
+#wrapper {
+  background-color: rgba(255, 255, 255, 0.7); /* Increase the transparency */
+  width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Header styles within .wrapper */
+#wrapper h1 {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #555;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Additional styles */
+body {
+  background-image: url("C:/Users/Sohail Khan/Documents/pexel pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-links {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.nav-links:hover {
+  background-color: #777;
+}
+
+/* Additional Styling */
+body {
+  background-color: #f7f7f7;
+  background-image: linear-gradient(to bottom, #ffcc00, #ff6600); /* Add a background gradient */
+}
+
+#wrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+  border: 4px solid #fff;
+  filter: contrast(150%) brightness(90%); /* Apply
+
+ image effects */
+  max-width: 100%; /* Make the image responsive */
+}
+
+/* Adjust the width and center the header within .wrapper */
+#wrapper h1 {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #555; /* Add a background color to the header */
+}
+
+body {
+  background-image: url("C:/Users/Sohail Khan/Documents/pexel pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
